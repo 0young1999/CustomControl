@@ -52,6 +52,12 @@
     <Compile Include="CustomControl\MultiCircleProgressBar.Designer.cs">
       <DependentUpon>MultiCircleProgressBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomForm\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomForm\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomForm\SelectedForm.cs">
       <SubType>Form</SubType>
     </Compile>
