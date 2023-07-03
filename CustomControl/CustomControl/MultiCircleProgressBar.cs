@@ -6,12 +6,7 @@ namespace young1999.CustomControl
 {
 	public partial class MultiCircleProgressBar : UserControl
 	{
-		private static readonly string version = "1.0";
-		public static string Version
-		{
-			get { return version; }
-			private set { }
-		}
+		public static string Version { get; private set; } = "1.0";
 
 		public MultiCircleProgressBar()
 		{

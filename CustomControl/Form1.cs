@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using young1999.CustomForm;
 
 namespace young1999
 {
@@ -16,6 +17,17 @@ namespace young1999
 			multiCircleProgressBar1.circles.Add(new CustomControl.CircleData());
 			multiCircleProgressBar1.circles.Add(new CustomControl.CircleData());
 			multiCircleProgressBar1.circles.Add(new CustomControl.CircleData());
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			string[] text = { "h", "e", "l", "l", "o" , "w", "o", "r", "l", "d"};
+			//string[] text = { "h" };
+			var forms = new SelectedForm(text);
+			if (forms.ShowDialog() == DialogResult.OK)
+			{
+				MessageBox.Show(forms.result.ToString());
+			}
 		}
 	}
 }

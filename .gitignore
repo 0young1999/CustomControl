@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /CustomControl/CustomForm/SelectedForm.cs
 /CustomControl/CustomForm/SelectedForm.Designer.cs
+/CustomControl/CustomForm/SelectedForm.resx
