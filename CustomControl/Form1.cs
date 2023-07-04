@@ -26,7 +26,7 @@ namespace young1999
 			var forms = new SelectedForm(text);
 			if (forms.ShowDialog() == DialogResult.OK)
 			{
-				MessageBox.Show(forms.result.ToString());
+				MessageBox.Show(forms.Tag.ToString());
 			}
 		}
 	}

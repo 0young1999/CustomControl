@@ -5,9 +5,7 @@ namespace young1999.CustomForm
 {
 	public partial class SelectedForm : Form
 	{
-		public static string Version { get; private set; } = "1.1";
-
-		public int result = -1;
+		public static string Version { get; private set; } = "1.2";
 
 		private SelectedForm()
 		{
@@ -59,7 +57,7 @@ namespace young1999.CustomForm
 				button.Click += (object sender, EventArgs e) =>
 				{
 					this.DialogResult = DialogResult.OK;
-					result = index;
+					this.Tag = index;
 					Close();
 				};
 
